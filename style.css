@@ -1,0 +1,105 @@
+/* Основные стили страницы */
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f7f9fc;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+   background: linear-gradient(135deg, #ffe2f2, #c2e9fb);
+  background-attachment: fixed;
+}
+
+h1 {
+  font-family: 'Comic Sans MS', 'Segoe UI', cursive, sans-serif;
+  font-size: 2.5rem;
+  color: #0f09d6;
+  text-align: center;
+  margin-bottom: 2rem;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+  letter-spacing: 1px;
+}
+
+/* Контейнер для всех фото */
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  padding: 20px;
+}
+
+/* Карточка с фото и названием */
+.container div {
+  background-color: #fff;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s, box-shadow 0.2s;
+  width: 240px;
+  overflow: hidden;
+}
+
+.container div:hover {
+  transform: scale(1.03);
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.2);
+}
+
+.container img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.container h3 {
+  margin: 10px;
+  font-size: 1.1em;
+  color: #34495e;
+   font-family: 'Comic Sans MS', 'Segoe UI', cursive, sans-serif;
+}
+
+a, a:visited, a:hover, a:active {
+  text-decoration: none;
+  color: inherit; /* Чтобы ссылка не была синей, если не хочешь */
+}
+
+
+/* Кнопка "Наверх" */
+.scroll-top {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background-color: #4A90E2;
+  color: white;
+  border: none;
+  padding: 10px 14px;
+  border-radius: 50px;
+  font-size: 16px;
+  cursor: pointer;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+  transition: background 0.3s;
+}
+
+.scroll-top:hover {
+  background-color: #357ABD;
+}
+
+
+/* Адаптивность */
+@media (max-width: 768px) {
+  .container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .container div {
+    width: 90%;
+  }
+
+  h1 {
+    font-size: 1.8em;
+  }
+    h1 {
+    font-size: 1.8rem;
+    margin-bottom: 1.5rem;
+    letter-spacing: 0.5px;
+  }
+}
