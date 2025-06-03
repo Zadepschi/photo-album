@@ -1,6 +1,6 @@
 /* Основные стили страницы */
 body {
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
   background-color: #f7f9fc;
   margin: 0;
   padding: 0;
@@ -10,7 +10,7 @@ body {
 }
 
 h1 {
-  font-family: 'Comic Sans MS', 'Segoe UI', cursive, sans-serif;
+  font-family: 'Baloo 2', 'Segoe UI', sans-serif;
   font-size: 2.5rem;
   color: #0f09d6;
   text-align: center;
@@ -53,7 +53,8 @@ h1 {
   margin: 10px;
   font-size: 1.1em;
   color: #34495e;
-   font-family: 'Comic Sans MS', 'Segoe UI', cursive, sans-serif;
+  font-family: 'Baloo 2', 'Segoe UI', sans-serif;
+
 }
 
 a, a:visited, a:hover, a:active {
