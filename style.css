@@ -219,4 +219,21 @@ a, a:visited, a:hover, a:active {
     margin-bottom: 1.5rem;
     letter-spacing: 0.5px;
   }
+
+}
+@media (max-width: 768px) {
+  .flip-card {
+    width: 90%;
+    height: auto;
+    aspect-ratio: 1 / 1; /* квадратная форма */
+  }
+
+  .flip-card-inner {
+    height: 90%;
+  }
+
+  .flip-card-front,
+  .flip-card-back {
+    height: 90%;
+  }
 }
