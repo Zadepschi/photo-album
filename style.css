@@ -166,9 +166,9 @@ a, a:visited, a:hover, a:active {
 }
 
 .flip-card-back {
-  background-image: url(./Photos/nebo.jpg);
+  background-image: url(./Photos/raduga.jpg);
   background-size: cover;
-  color: rgb(102, 94, 94);
+  color: white;
   transform: rotateY(180deg);
   display: flex;
   flex-direction: column;
@@ -177,7 +177,9 @@ a, a:visited, a:hover, a:active {
   padding: 20px;
   box-sizing: border-box; /* важно для учета padding */
 }
-
+h2 {
+  text-shadow: 2px 2px 4px rgba(2, 2, 4, 1);
+}
 /* Кнопки на оборотной стороне */
 .flip-btn {
   margin: 8px 0;
@@ -189,6 +191,7 @@ a, a:visited, a:hover, a:active {
   font-weight: bold;
   cursor: pointer;
   transition: background 0.3s;
+  box-shadow: 2px 2px 4px rgba(2, 2, 4, 1);
 }
 
 .flip-btn:hover {
