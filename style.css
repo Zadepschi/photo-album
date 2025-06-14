@@ -150,7 +150,7 @@ a, a:visited, a:hover, a:active {
 }
 
 .flip-card-front h3 {
-  margin: 5px;
+  margin: 4px;
   font-size: 1em;
   color: #31383f;
   font-family: 'Baloo 2', 'Segoe UI', sans-serif;
@@ -169,12 +169,13 @@ a, a:visited, a:hover, a:active {
   box-sizing: border-box; /* важно для учета padding */
 }
 h2 {
+  
   text-shadow: 2px 2px 4px rgba(2, 2, 4, 1);
 }
 /* Кнопки на оборотной стороне */
 .flip-btn {
-  margin: 8px 0;
-  padding: 8px 20px;
+  margin: 6px 0;
+  padding: 6px 20px;
   background-color: #fff;
   color: #2980b9;
   border: none;
